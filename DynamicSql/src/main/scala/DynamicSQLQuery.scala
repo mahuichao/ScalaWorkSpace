@@ -12,6 +12,7 @@ object DynamicSQLQuery {
   val KEY = "spark_tasks_sql"
 
   /*
+   * redis 中数据格式
   *"{\"files\":[\"hdfs://120.25.177.114:9000/user/root/hdfs/file1.txt\",
   * \"hdfs://120.25.177.114:9000/user/root/hdfs/file2.txt\"],\"fields\":\"name,age,location\"
   * ,\"table_name\":\"human\",\"query_sql\":\"select * from human\",\"dump_redis_key\":\"human_3\"}"
